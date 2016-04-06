@@ -14,5 +14,8 @@ G,A,G,E,1
 
 SNG.java
 
-readCsv("D://工作//nsSNP_rawData//humvar_dataset.csv","D://工作//nsSNP_rawData//out.arff");
+Usage:
+java -jar -i inputFile -o outArff
+
+######readCsv("D://工作//nsSNP_rawData//humvar_dataset.csv","D://工作//nsSNP_rawData//out.arff");
 

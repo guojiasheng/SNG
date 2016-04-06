@@ -72,11 +72,12 @@ public class SNP {
 	
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		//String command="-i D://工作//nsSNP_rawData//humvar_dataset.csv -o D://工作//nsSNP_rawData//out.arff";
+		//String command="-i D://工作//nsSNP_rawData//humvar_dataset.csv -o D://工作//nsSNP_rawData//out.arff -n 3";
 		//String com[] = command.split(" ");
 		
 		String inputFile = args[1];
 		String outArff = args[3];
+		n = Integer.valueOf(args[5]);
 		readCsv(inputFile,outArff);
 	}
 

@@ -15,7 +15,11 @@ G,A,G,E,1
 SNG.java
 
 Usage:
-java -jar -i inputFile -o outArff
+java -jar -i inputFile -o outArff -n 5
+
+inpufile：要提取的csv文件
+outArff: 提取的arff文件
+n： 是要提取的前后n位
 
 ######readCsv("D://工作//nsSNP_rawData//humvar_dataset.csv","D://工作//nsSNP_rawData//out.arff");
 
